@@ -12,6 +12,7 @@ void loop() {
   sinVal = ( sin(i*(3.1412/180)) );
   ledVal = int(sinVal * 255);
   analogWrite(ledPin, ledVal);
-  delay(24);
- } 
+  delay(20);
+ }
+ delay(20); 
 }
